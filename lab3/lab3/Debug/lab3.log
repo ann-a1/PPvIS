@@ -1,0 +1,10 @@
+﻿  lab3.cpp
+D:\Учеба\сем3\ППвИС\lab3\lab3\animal.h(31,18): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\Учеба\сем3\ППвИС\lab3\lab3\animal.h(36,18): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\Учеба\сем3\ППвИС\lab3\lab3\plant.h(22,18): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\Учеба\сем3\ППвИС\lab3\lab3\field.h(68,18): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\Учеба\сем3\ППвИС\lab3\lab3\field.h(89,18): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\Учеба\сем3\ППвИС\lab3\lab3\field.h(101,18): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\Учеба\сем3\ППвИС\lab3\lab3\field.h(115,18): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\Учеба\сем3\ППвИС\lab3\lab3\field.h(184,20): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  lab3.vcxproj -> D:\Учеба\сем3\ППвИС\lab3\Debug\lab3.exe
