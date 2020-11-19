@@ -1,0 +1,176 @@
+\hypertarget{class_vector}{}\doxysection{Vector Class Reference}
+\label{class_vector}\index{Vector@{Vector}}
+
+
+{\ttfamily \#include $<$vector.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_vector_ae6421be7ce4586794432d12c7f32fb4a}\label{class_vector_ae6421be7ce4586794432d12c7f32fb4a}} 
+{\bfseries Vector} (\mbox{\hyperlink{class_point}{Point}} $\ast$b, \mbox{\hyperlink{class_point}{Point}} $\ast$e)
+\item 
+\mbox{\Hypertarget{class_vector_a164326e70597a895d707c1bb4b6f849b}\label{class_vector_a164326e70597a895d707c1bb4b6f849b}} 
+{\bfseries Vector} (float x1, float y1, float z1, float x2, float y2, float z2)
+\item 
+\mbox{\Hypertarget{class_vector_a4ec1206fa568aa953588ef663ff511be}\label{class_vector_a4ec1206fa568aa953588ef663ff511be}} 
+{\bfseries Vector} (const \mbox{\hyperlink{class_vector}{Vector}} \&other)
+\item 
+\mbox{\Hypertarget{class_vector_a63717b0ae325c56148994a12fa41cc55}\label{class_vector_a63717b0ae325c56148994a12fa41cc55}} 
+\mbox{\hyperlink{class_point}{Point}} {\bfseries getbegin} ()
+\item 
+\mbox{\Hypertarget{class_vector_a09d068353c99439f95eed15b59a813f9}\label{class_vector_a09d068353c99439f95eed15b59a813f9}} 
+\mbox{\hyperlink{class_point}{Point}} {\bfseries getend} ()
+\item 
+\mbox{\hyperlink{class_vector}{Vector}} \mbox{\hyperlink{class_vector_ab49c4e4fd5e56bd0d71d100d13ac5ee4}{change\+\_\+begin\+\_\+point}} (\mbox{\hyperlink{class_point}{Point}} $\ast$newpoint)
+\item 
+\mbox{\hyperlink{class_vector}{Vector}} \mbox{\hyperlink{class_vector_afa8ca141362ee7e4c23ca6da6f9696f5}{change\+\_\+end\+\_\+point}} (\mbox{\hyperlink{class_point}{Point}} $\ast$newpoint)
+\item 
+\mbox{\hyperlink{class_vector}{Vector}} \mbox{\hyperlink{class_vector_a6fc953bfe51feedd6bf34b2b959fc1d8}{change\+\_\+begin}} (float a, float b, float c)
+\item 
+\mbox{\hyperlink{class_vector}{Vector}} \mbox{\hyperlink{class_vector_ad21717d4751d5fdeab9568e1dd0fe677}{change\+\_\+end}} (float a, float b, float c)
+\item 
+\mbox{\Hypertarget{class_vector_a30cd7f56c310640265825e3de19b86d4}\label{class_vector_a30cd7f56c310640265825e3de19b86d4}} 
+\mbox{\hyperlink{class_vector}{Vector}} {\bfseries operator+} (const \mbox{\hyperlink{class_vector}{Vector}} \&b)
+\item 
+\mbox{\Hypertarget{class_vector_ad9efa99e393050d0a05f1462e5cdc085}\label{class_vector_ad9efa99e393050d0a05f1462e5cdc085}} 
+\mbox{\hyperlink{class_vector}{Vector}} {\bfseries operator+=} (const \mbox{\hyperlink{class_vector}{Vector}} \&b)
+\item 
+\mbox{\Hypertarget{class_vector_a22e43c8c818b1936b14a1ed8b38aa7bc}\label{class_vector_a22e43c8c818b1936b14a1ed8b38aa7bc}} 
+\mbox{\hyperlink{class_vector}{Vector}} {\bfseries operator-\/} (const \mbox{\hyperlink{class_vector}{Vector}} \&b)
+\item 
+\mbox{\Hypertarget{class_vector_a108c44d8d2c9fee96e6e0a6242d330a3}\label{class_vector_a108c44d8d2c9fee96e6e0a6242d330a3}} 
+\mbox{\hyperlink{class_vector}{Vector}} {\bfseries operator-\/=} (const \mbox{\hyperlink{class_vector}{Vector}} \&b)
+\item 
+\mbox{\Hypertarget{class_vector_a6725c8cedc78094ed02656ca2b88b8a5}\label{class_vector_a6725c8cedc78094ed02656ca2b88b8a5}} 
+\mbox{\hyperlink{class_vector}{Vector}} {\bfseries operator$\ast$} (const \mbox{\hyperlink{class_vector}{Vector}} \&b)
+\item 
+\mbox{\Hypertarget{class_vector_ae48206f32eea6e4d31644b2eba915422}\label{class_vector_ae48206f32eea6e4d31644b2eba915422}} 
+\mbox{\hyperlink{class_vector}{Vector}} {\bfseries operator$\ast$=} (const \mbox{\hyperlink{class_vector}{Vector}} \&b)
+\item 
+\mbox{\Hypertarget{class_vector_a569de0c9ff538fa7a029e77c9908b5f9}\label{class_vector_a569de0c9ff538fa7a029e77c9908b5f9}} 
+\mbox{\hyperlink{class_vector}{Vector}} {\bfseries operator$\ast$} (float number)
+\item 
+\mbox{\Hypertarget{class_vector_a2dcb03d532d4958ea0650ff5faa93e0f}\label{class_vector_a2dcb03d532d4958ea0650ff5faa93e0f}} 
+\mbox{\hyperlink{class_vector}{Vector}} {\bfseries operator$\ast$=} (float number)
+\item 
+\mbox{\Hypertarget{class_vector_ad57f4409947623262413dbc33802c005}\label{class_vector_ad57f4409947623262413dbc33802c005}} 
+float {\bfseries operator/} (const \mbox{\hyperlink{class_vector}{Vector}} \&b)
+\item 
+\mbox{\Hypertarget{class_vector_a7277f5b1a51015aed584cff80b1dd193}\label{class_vector_a7277f5b1a51015aed584cff80b1dd193}} 
+float {\bfseries operator$^\wedge$} (const \mbox{\hyperlink{class_vector}{Vector}} \&b)
+\item 
+\mbox{\Hypertarget{class_vector_a7689de959542e8d20097a1847f8c6358}\label{class_vector_a7689de959542e8d20097a1847f8c6358}} 
+bool {\bfseries operator$>$} (const \mbox{\hyperlink{class_vector}{Vector}} \&b)
+\item 
+\mbox{\Hypertarget{class_vector_aa1fc49593cae50a41da6979c770e66a2}\label{class_vector_aa1fc49593cae50a41da6979c770e66a2}} 
+bool {\bfseries operator$<$} (const \mbox{\hyperlink{class_vector}{Vector}} \&b)
+\item 
+\mbox{\Hypertarget{class_vector_a508f13394872b082a049be4631921c37}\label{class_vector_a508f13394872b082a049be4631921c37}} 
+bool {\bfseries operator$>$=} (const \mbox{\hyperlink{class_vector}{Vector}} \&b)
+\item 
+\mbox{\Hypertarget{class_vector_a7c2b3b63e17b841fa298663bb6516742}\label{class_vector_a7c2b3b63e17b841fa298663bb6516742}} 
+bool {\bfseries operator$<$=} (const \mbox{\hyperlink{class_vector}{Vector}} \&b)
+\item 
+\mbox{\Hypertarget{class_vector_a3aa38489fac83c0591dd17e97698882e}\label{class_vector_a3aa38489fac83c0591dd17e97698882e}} 
+bool {\bfseries operator==} (const \mbox{\hyperlink{class_vector}{Vector}} \&b)
+\item 
+\mbox{\Hypertarget{class_vector_a014a3d0797a2f1cb8df18bade2282faa}\label{class_vector_a014a3d0797a2f1cb8df18bade2282faa}} 
+bool {\bfseries operator!=} (const \mbox{\hyperlink{class_vector}{Vector}} \&b)
+\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_vector_a815db148d9526c1a8d7e6adc213eee1d}\label{class_vector_a815db148d9526c1a8d7e6adc213eee1d}} 
+std\+::ostream \& {\bfseries operator$<$$<$} (std\+::ostream \&stream, const \mbox{\hyperlink{class_vector}{Vector}} \&other)
+\item 
+\mbox{\Hypertarget{class_vector_ab12e550781a874645dfcad547206cff8}\label{class_vector_ab12e550781a874645dfcad547206cff8}} 
+std\+::istream \& {\bfseries operator$>$$>$} (std\+::istream \&stream, \mbox{\hyperlink{class_vector}{Vector}} \&a)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+class of vectors \begin{DoxyAuthor}{Authors}
+Ann
+\end{DoxyAuthor}
+this class stores vectores and operations on them 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_vector_a6fc953bfe51feedd6bf34b2b959fc1d8}\label{class_vector_a6fc953bfe51feedd6bf34b2b959fc1d8}} 
+\index{Vector@{Vector}!change\_begin@{change\_begin}}
+\index{change\_begin@{change\_begin}!Vector@{Vector}}
+\doxysubsubsection{\texorpdfstring{change\_begin()}{change\_begin()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_vector}{Vector}} Vector\+::change\+\_\+begin (\begin{DoxyParamCaption}\item[{float}]{a,  }\item[{float}]{b,  }\item[{float}]{c }\end{DoxyParamCaption})}
+
+change the begin point of vector
+
+changes coordinates of begin point of vector 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em a} & coordinate x of new begin point \\
+\hline
+\mbox{\texttt{ in}}  & {\em b} & coordinate y of new begin point \\
+\hline
+\mbox{\texttt{ in}}  & {\em c} & coordinate z of new begin point \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+vector with new coordinates of begin point 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_vector_ab49c4e4fd5e56bd0d71d100d13ac5ee4}\label{class_vector_ab49c4e4fd5e56bd0d71d100d13ac5ee4}} 
+\index{Vector@{Vector}!change\_begin\_point@{change\_begin\_point}}
+\index{change\_begin\_point@{change\_begin\_point}!Vector@{Vector}}
+\doxysubsubsection{\texorpdfstring{change\_begin\_point()}{change\_begin\_point()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_vector}{Vector}} Vector\+::change\+\_\+begin\+\_\+point (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_point}{Point}} $\ast$}]{newpoint }\end{DoxyParamCaption})}
+
+change the begin point of vector
+
+change the address of begin point of vector to the address of new begin point 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em newpoint} & address of new begin point \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+vector with new begin point 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_vector_ad21717d4751d5fdeab9568e1dd0fe677}\label{class_vector_ad21717d4751d5fdeab9568e1dd0fe677}} 
+\index{Vector@{Vector}!change\_end@{change\_end}}
+\index{change\_end@{change\_end}!Vector@{Vector}}
+\doxysubsubsection{\texorpdfstring{change\_end()}{change\_end()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_vector}{Vector}} Vector\+::change\+\_\+end (\begin{DoxyParamCaption}\item[{float}]{a,  }\item[{float}]{b,  }\item[{float}]{c }\end{DoxyParamCaption})}
+
+change the end point of vector
+
+changes coordinates of end point of vector 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em a} & coordinate x of new end point \\
+\hline
+\mbox{\texttt{ in}}  & {\em b} & coordinate y of new end point \\
+\hline
+\mbox{\texttt{ in}}  & {\em c} & coordinate z of new end point \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+vector with new coordinates of end point 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_vector_afa8ca141362ee7e4c23ca6da6f9696f5}\label{class_vector_afa8ca141362ee7e4c23ca6da6f9696f5}} 
+\index{Vector@{Vector}!change\_end\_point@{change\_end\_point}}
+\index{change\_end\_point@{change\_end\_point}!Vector@{Vector}}
+\doxysubsubsection{\texorpdfstring{change\_end\_point()}{change\_end\_point()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_vector}{Vector}} Vector\+::change\+\_\+end\+\_\+point (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_point}{Point}} $\ast$}]{newpoint }\end{DoxyParamCaption})}
+
+change the end point of vector
+
+change the address of end point of vector to the address of new end point 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em newpoint} & new end point \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+vector with new end point 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+labaratornaya1/\mbox{\hyperlink{vector_8h}{vector.\+h}}\item 
+labaratornaya1/vector.\+cpp\end{DoxyCompactItemize}
